@@ -1,21 +1,17 @@
-import React, {useState} from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'
 
-const Greeting  = (props) => {
+const Greeting  = props => {
     const {name} = props
-    // const {state1, state2} = 
-    //descontructing, force the props to exist
-    // const [name, setName] = useState({});
-    
+
     return (
         <div>
-            
-            <h3> Hey {name}, Welcome to my page  </h3>
+        
+            <h1 className="my-5"> Hey {name}, Welcome to my page  </h1>
 
         </div>
     )
 }
 
 
-
 export default Greeting 
+
