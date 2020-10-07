@@ -2,6 +2,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Lab 01 - Introducing React & Components
 
-## Live Demo
-
-### https://tavaresdev.github.io/ReactLab1/
