@@ -6,7 +6,8 @@ const Greeting  = props => {
     return (
         <div>
         
-            <h1 className="my-5"> Hey {name}, Welcome to my page  </h1>
+            <h1 className="my-5"> Hey {name}! </h1>
+            <h2> Welcome to my page!</h2>
 
         </div>
     )

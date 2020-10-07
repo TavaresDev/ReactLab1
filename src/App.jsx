@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Greeting from './components/Greeting ';
-import { Container, Jumbotron } from 'react-bootstrap';
+import Greeting from './components/index.jsx/Greeting';
+import { Container, Form, Jumbotron } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
@@ -10,13 +10,19 @@ const App = () => {
 
   return (
     <Jumbotron className="text-center">
-      <Container className="">
-        <input
-          type="text"
-          onChange={({ target: { value } }) => setName(value)}
-          placeholder="Enter your Name"
-        />
-      </Container>
+
+      <Form>
+        <Form.Label>
+          <Form.Control 
+            type="text"
+            onChange={({ target: { value } }) => setName(value)}
+            placeholder="Enter your Name"
+          
+          />
+        </Form.Label>
+      </Form>
+      
+
 
       <Container>
         <Greeting name={name} />
