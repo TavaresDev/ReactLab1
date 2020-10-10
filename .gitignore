@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#study
+appClass.jsx
+components\Counter.jsx
+components\CounterFunc.jsx
