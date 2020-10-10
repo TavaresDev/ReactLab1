@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Greeting from './components/index.jsx/Greeting';
+import Greeting from './components/Greeting';
 import { Container, Form, Jumbotron } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
