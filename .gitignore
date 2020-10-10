@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 #study
-appClass.jsx
+AppClass.jsx
 components\Counter.jsx
 components\CounterFunc.jsx
